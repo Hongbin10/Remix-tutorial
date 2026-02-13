@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "c",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "d",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "e",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "f",
+						"type": "int256"
+					}
+				],
+				"name": "addition",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					}
+				],
+				"name": "addition",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Lab1/task.sol": "samename"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Lab1/task.sol": {
+			"keccak256": "0xd874e51367a2ac63aa555e217064931443098e0a55a02fe73e4db2bd169e8746",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cdaf07116b474d0bef261931cc0c0fed44e47fd15186f6876a9906f737a0937f",
+				"dweb:/ipfs/QmaVCxyPMyKpGWW7ch1eyYxKJ4ryGnxv5nDQe8SaU1KncY"
+			]
+		}
+	},
+	"version": 1
+}
