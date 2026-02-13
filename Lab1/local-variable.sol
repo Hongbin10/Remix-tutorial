@@ -14,7 +14,7 @@ contract LocalVariables {
     }
 
     // It can still be compiled and run, but after deployment, because this function is not restricted with read-only (view/pure), it is by default classified as a write function.
-    // This function does not modify any contract state, so naturally it cannot be called.
+    // This function does not modify any contract state, Mandatory on-chain transactions.
     function getResultWithoutPure() public returns(uint) {
         uint a = 1;
         uint b = 2;
