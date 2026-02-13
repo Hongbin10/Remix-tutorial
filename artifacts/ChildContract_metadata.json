@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.0+commit.c7dfd78e"
+		"version": "0.8.31+commit.fd3a2265"
 	},
 	"language": "Solidity",
 	"output": {
@@ -70,7 +70,7 @@
 		"compilationTarget": {
 			"Lab1_Solidity.sol": "ChildContract"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "osaka",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -83,10 +83,10 @@
 	},
 	"sources": {
 		"Lab1_Solidity.sol": {
-			"keccak256": "0x2fa49af7eb4e15682ca29e209c3f4f0ea1e4e6162767438b55ffdbba6c62da87",
+			"keccak256": "0x88fc5e812086d26a0e6833f4ecffecbac2372321d96590834151e8c31641a841",
 			"urls": [
-				"bzz-raw://bf7c413a6ef3e379464e655e521007586f181a98b5795573b30868fbe12dc85f",
-				"dweb:/ipfs/QmbEshwW4iKXJifmoXe4EFvFRih6bGR2Ln5QJTi8EDTqM3"
+				"bzz-raw://d8d24e02912736dae39b2567d79aacb6461fa7516af4cd9f499f149ecb40c2c4",
+				"dweb:/ipfs/QmXgXRz58nE5TjaiwDRe2QAE8DzLVkXZ4Ue3QjyZoLoyGW"
 			]
 		}
 	},

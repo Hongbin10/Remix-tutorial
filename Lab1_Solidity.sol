@@ -22,14 +22,17 @@ contract ParentContract {
 }
 
 // 子合约：继承父合约，验证internal权限的继承访问特性
+// Subcontract: Inherit from the parent contract and verify the inheritance access characteristics of internal permissions
 contract ChildContract is ParentContract {
     // 验证2：子合约（派生合约）可以访问父合约中默认internal的状态变量
+    // Verification 2: Subcontracts (derived contracts) can access state variables with the default internal permission in the parent contract
     function getChildAccessParentState() public view returns (int, string memory) {
         return (age, name); // 直接调用父合约的name/age，无语法错误
     }
 
     // 【注释掉即可，解开会报错】验证：子合约无法访问父合约的private变量
+    //  【Just comment it out; uncommenting will cause an error】Verification: Child contracts cannot access private variables of parent contracts
     // function getPrivateNum() public view returns (uint) {
-    //     return privateNum; // 编译报错：Private variable is only accessible in the contract where it is declared
+    //     return privateNum; // Compilation error：Private variable is only accessible in the contract where it is declared
     // }
 }
